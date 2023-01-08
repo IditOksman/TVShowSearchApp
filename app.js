@@ -34,5 +34,5 @@ const makeImages = (shows) => {
 const showMovieDescription = (show) => {
     console.log(show);
     localStorage["show"] = JSON.stringify(show);
-    window.location.href = `file:///C:/Users/Nushik/Documents/web/TVShowSearchApp/movieDescription.html`;
+    window.location.href = `./movieDescription.html`;
 }

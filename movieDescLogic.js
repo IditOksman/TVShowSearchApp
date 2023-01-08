@@ -1,7 +1,7 @@
 const backButton = document.querySelector('#backButton');
 
 backButton.addEventListener('click', function(){
-    window.location.href = `file:///C:/Users/Nushik/Documents/web/TVShowSearchApp/index.html`;
+    window.location.href = `./index.html`;
 })
 
 function setShowData() {
